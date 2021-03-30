@@ -52,12 +52,12 @@ function run(context) {
     return 'WEBGL_debug_shaders not available';
   }
 
-  const isWebGL2 = gl instanceof WebGL2RenderingContext;
+  const isWebGL1 = gl instanceof WebGLRenderingContext;
   const shader = gl.createShader(gl.VERTEX_SHADER);
 
   gl.shaderSource(
     shader,
-    `#version ${isWebGL2 ? "300 es" : "100"}
+    `#version ${isWebGL1 ? "100" : "300 es"}
     void main() {
       gl_Position = vec4(__VERSION__, 1.0, 1.0, 1.0);
     }
