@@ -16,4 +16,4 @@ Android 7 -> OpenGL ES 2.0
 iOS 14 -> OpenGL ES 2.0
 ```
 
-[DEMO](https://luruke.github.io/gl-backend/)
+[DEMO](https://luruke.github.io/gl-backend/demo.html)
