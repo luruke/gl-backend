@@ -1,7 +1,7 @@
 # 🚪 gl-backend
 This is a proof of concept that explores the possibility of detecting the graphic rendering API behind the browser's WebGL implementation.
 
-WebGL's implementations will, at certain point, translates the users supplied shaders from GLSL ES version 100 (version 300 for WebGL2) to the host platform's native shading language. As far as I know, out in production there are only WebGL implementation targeting Direct3D (via ANGLE), OpenGL and OpenGL ES.
+WebGL's implementations will, at certain point, translates the users supplied shaders from GLSL ES version 100 (version 300 for WebGL2) to the host platform's native shading language. As far as I know, out in production there are only WebGL implementation targeting Direct3D (via ANGLE), Metal (via ANGLE) – 🆕 iOS15 beta, OpenGL and OpenGL ES.
 
 This proof of concept can be extremely interesting once new backend rendering will be implemented (most likely in ANGLE) in production (notably Vulkan and Metal).
 
