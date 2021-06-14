@@ -14,6 +14,7 @@ Windows 10 -> Direct3D
 Android 10 -> OpenGL ES 3.0
 Android 7 -> OpenGL ES 2.0
 iOS 14 -> OpenGL ES 2.0
+iOS 15 -> Metal
 ```
 
 [DEMO](https://luruke.github.io/gl-backend/)

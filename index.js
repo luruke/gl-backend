@@ -1,6 +1,10 @@
 function detectBackend(str) {
-  // TODO, implement Metal
   // TODO, implement Vulkan
+
+  if (str.match(/metal::float4/)) {
+    // Metal
+    return 'Metal';
+  }
 
   if (str.match(/VS_OUTPUT main\(/)) {
     // HLSL
